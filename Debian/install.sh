@@ -32,7 +32,7 @@ if [[ $CHOICE = Wheezy* ]]; then
 	fi
 	if [[ $CHOICE = *XFCE* ]]; then
 		printf "Selected Flavour: %s\n" "XFCE"
-		$SHELL $(dirname $0)/ignition2.sh /dev/mmcblk0 https://images.solid-build.xyz/IMX6/Debian/sr-imx6-debian-wheezy-xfce-latest.img.xz
+		$SHELL $(dirname $0)/ignition2.sh /dev/mmcblk0 https://images.solid-build.xyz/IMX6/Debian/sr-imx6-debian-wheezy-xfce-20160226.img.xz
 		exit $?
 	fi
 
